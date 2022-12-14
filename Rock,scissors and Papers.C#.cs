@@ -2,15 +2,17 @@ using System;
 
 namespace Rockpaperscissors
 {
+//     creating a class for our programme
     class Program
     {
         static void Main(string[] args)
-        {
+        {  
+//             Declaring the Variables that we shall be using the programme
             string inputPlayer, Computer;
             int randomnum;
             string loop;
             bool keepPlaying = true;
-
+// Using the While loop that will continously run our programme 
             while (keepPlaying)
             {
 
@@ -27,7 +29,7 @@ namespace Rockpaperscissors
                     Console.Write("To play: enter R for Rock, S for Scissors, P for Paper.");
                     inputPlayer = Console.ReadLine();
                     inputPlayer = inputPlayer.ToUpper();
-
+// Switch to choose options 
                     switch (randomnum)
                     {
 
